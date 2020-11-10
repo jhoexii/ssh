@@ -14,7 +14,7 @@ PASS = ''
 BUFLEN = 8196 * 8
 TIMEOUT = 3600
 MSG = 'Proxy OK'
-DEFAULT_HOST = '0.0.0.0:1194'
+DEFAULT_HOST = '0.0.0.0:443'
 RESPONSE = "HTTP/1.1 200 " + str(MSG) + "\r\n\r\n"
 
 class Server(threading.Thread):
