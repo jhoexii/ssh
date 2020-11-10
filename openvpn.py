@@ -12,7 +12,7 @@ except:
    PORT = 8080
 PASS = ''
 BUFLEN = 8196 * 8
-TIMEOUT = 60
+TIMEOUT = 3600
 MSG = 'Powered by: CodePH'
 DEFAULT_HOST = '0.0.0.0:1194'
 RESPONSE = "HTTP/1.1 200 " + str(MSG) + "\r\n\r\n"
