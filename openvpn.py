@@ -15,7 +15,7 @@ BUFLEN = 8196 * 8
 TIMEOUT = 3600
 MSG = 'Proxy OK'
 DEFAULT_HOST = '0.0.0.0:443'
-RESPONSE = "HTTP/1.1 200 " + str(MSG) + "\r\n\r\n"
+RESPONSE = "HTTP/1.1 101 " + str(MSG) + "\r\n\r\n"
 
 class Server(threading.Thread):
     def __init__(self, host, port):
